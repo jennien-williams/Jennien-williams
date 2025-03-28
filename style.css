@@ -1,0 +1,40 @@
+
+
+table, tr, th, td, caption {
+    border: 6px gray #eee;
+    border-style: groove;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    margin: auto;
+    
+}
+
+.bold-vertical {
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.bold-vertical span {
+    display: block;
+    margin-top: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-horizontal {
+    font-weight: bold;
+}
+
+.shadow {
+    background-color: gray;
+}
+
+.table-wrapper {
+    overflow: auto;
+    width: 95vw;
+    height: 90vh;
+}
+
